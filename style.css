@@ -16,7 +16,7 @@ main{
     position: relative;
     width: 100vw ;
     height: 100vh;
-    background-image: url(../Images/background-2.jpg);
+    background-image: url(background-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;  
 }
@@ -43,7 +43,7 @@ section.redes{
     transform: translate(-50%, -50%);
     width: 311px;
     height: 625px;
-    background-image: url(../Images/frame-iphone.png);
+    background-image: url(frame-iphone.png);
     background-repeat: no-repeat; 
 }
 
@@ -53,7 +53,7 @@ iframe#iphone{
     left: 24px;        
     width: 264px;
     height: 469px;
-    background-image: url(../Images/tela-home.jpg);
+    background-image: url(tela-home.jpg);
     background-position: center center;
     background-size: cover;
 
