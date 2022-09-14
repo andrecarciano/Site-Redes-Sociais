@@ -1,0 +1,29 @@
+@charset "UTF-8" ;
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(230, 49, 49);    
+}
+
+img{
+    width: 93vw;
+}
+
+p{
+    
+    background-color: rgb(230, 49, 49);
+    text-align: center;
+}
+
+a{
+    display: block;
+    padding: 10px 5px 15px 5px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(230, 49, 49);
+}

@@ -1,0 +1,62 @@
+@charset "UTF-8" ;
+
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw ;
+    height: 100vh;
+    background-image: url(../Images/background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+section.redes{
+    
+    text-align: right;
+    padding: 2vw;   
+}
+
+.redes>a{
+    text-decoration: none;
+    
+}
+.redes>a>img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.celular{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 311px;
+    height: 625px;
+    background-image: url(../Images/frame-iphone.png);
+    background-repeat: no-repeat; 
+}
+
+iframe#iphone{  
+    position: relative;
+    top: 82px; 
+    left: 24px;        
+    width: 264px;
+    height: 469px;
+    background-image: url(../Images/tela-home.jpg);
+    background-position: center center;
+    background-size: cover;
+
+    
+}
+
