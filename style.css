@@ -27,32 +27,57 @@ section.redes{
     padding: 2vw;   
 }
 
-.redes>a{
+section.redes>a{
     text-decoration: none;
     
 }
-.redes>a>img{
+section.redes>a>img{
     width: 70px;
+    margin-right:10px;
     border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.801);
+    
 }
 
-.celular{
+.redes>a>img:hover{
+    width: 85px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.801);
+    transform: translate(5px, -5px);
+    transition: .2s;
+    
+}
+
+.redes>a>img:active{
+    width: 80px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 30px rgb(67, 180, 245);
+    transform: translate(5px, -5px);
+    
+    
+}
+
+section.celular{
     position: absolute;
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 311px;
     height: 625px;
+    background-size: 250px 500px ;
     background-image: url(frame-iphone.png);
     background-repeat: no-repeat; 
+    background-position: center center;
+    
+    
 }
 
 iframe#iphone{  
     position: relative;
-    top: 82px; 
-    left: 24px;        
-    width: 264px;
-    height: 469px;
+    top: 127px; 
+    left: 50px;        
+    width: 213px;
+    height: 374px;
     background-image: url(tela-home.jpg);
     background-position: center center;
     background-size: cover;
